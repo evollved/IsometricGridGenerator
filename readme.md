@@ -55,10 +55,14 @@ pip install -r requirements.txt
 Примеры
 Книжная ориентация (размер ячейки 10 мм)
 
-Книжная ориентация
+![image](https://github.com/user-attachments/assets/3e3c8b3c-dc71-4c50-a5ce-0eb02b54f8b2)
+
+
 Альбомная ориентация (размер ячейки 20 мм)
 
-Альбомная ориентация
+![image](https://github.com/user-attachments/assets/259e08a5-9fdc-4ff9-a435-7e33088f17a0)
+
+
 Лицензия
 
 Этот проект распространяется под лицензией MIT. Подробнее см. в файле LICENSE.
