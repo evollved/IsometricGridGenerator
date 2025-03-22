@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def draw_isometric_grid(ax, spacing, color='gray', orientation='portrait'):
+def draw_isometric_grid(ax, spacing, color='lightgray', orientation=2):
     # Размеры листа A4 в миллиметрах
     if orientation == 2:  # Книжная ориентация
         width, height = 210, 297
@@ -108,7 +108,7 @@ def main():
     ax.axis('off')
 
     # Рисуем сетку для выбранного размера
-    draw_isometric_grid(ax, spacing=spacing, color='black', orientation=orientation)
+    draw_isometric_grid(ax, spacing=spacing, color='lightgray', orientation=orientation)
 
     # Рисуем оси X, Y, Z
     draw_axes(ax, spacing=spacing, orientation=orientation)
